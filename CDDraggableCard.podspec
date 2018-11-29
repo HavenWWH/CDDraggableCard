@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
   s.description      = '卡片样式滑动, 类似探探卡片滑动效果, 类型iOS的TableView写法,设置代理 CDDraggableCardView 相对应Cell, CDDraggableContainer对应tableView'
   s.homepage         = 'https://github.com/HavenWWH'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => "MIT", :file => "LICENSE" } 
+  s.license          = 'MIT'
   s.author           = { 'Haven' => '513433750@qq.com' }
   s.source           = { :git => "https://github.com/HavenWWH/CDDraggableCard.git", :tag => "#{s.version}"} 
   
   s.ios.deployment_target = '8.0'
-  s.source_files = 'CDDraggableCard/Classes/**/*'
+  s.source_files = 'CDDraggableCard/*.{h,m}'
   
   #  s.resource_bundles = {
    #   'CDDraggableCard' => ['CDDraggableCard/Assets/*']

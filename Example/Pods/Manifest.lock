@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CDDraggableCard: 21127dea144d8e8da2b4b098b5343215aab2885d
+  CDDraggableCard: 795a80a149fc740b3577327f4d23da7d337ceafb
 
 PODFILE CHECKSUM: b4c8400154cba2fbf16e76e44f31cfe51a8c8a2a
 

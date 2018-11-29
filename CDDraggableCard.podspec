@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => "MIT", :file => "LICENSE" } 
   s.author           = { 'Haven' => '513433750@qq.com' }
-  s.source           = { :git => "https://github.com/HavenWWH/CDDraggableCardView.git"} 
+  s.source           = { :git => "https://github.com/HavenWWH/CDDraggableCard.git"} 
   
   s.ios.deployment_target = '8.0'
   s.source_files = 'CDDraggableCard/Classes/**/*'

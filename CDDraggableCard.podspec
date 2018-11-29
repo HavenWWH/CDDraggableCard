@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'CDDraggableCard/Classes/**/*'
   
-   s.resource_bundles = {
-     'CDDraggableCard' => ['CDDraggableCard/Assets/*']
-   }
+  #  s.resource_bundles = {
+   #   'CDDraggableCard' => ['CDDraggableCard/Assets/*']
+   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

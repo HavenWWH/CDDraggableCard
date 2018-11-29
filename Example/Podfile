@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CDDraggableCard_Example' do
+  pod 'CDDraggableCard', :path => '../'
+
+  target 'CDDraggableCard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -9,32 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'CDDraggableCard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CDDraggableCard.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Haven/CDDraggableCard'
+  s.summary          = '卡片样式滑动, 类似探探卡片滑动效果'
+  s.description      = '卡片样式滑动, 类似探探卡片滑动效果, 类型iOS的TableView写法,设置代理 CDDraggableCardView 相对应Cell, CDDraggableContainer对应tableView'
+  s.homepage         = 'https://github.com/HavenWWH'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => "MIT", :file => "LICENSE" } 
   s.author           = { 'Haven' => '513433750@qq.com' }
-  s.source           = { :git => 'https://github.com/Haven/CDDraggableCard.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => "https://github.com/HavenWWH/CDDraggableCardView.git"} 
+  
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'CDDraggableCard/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CDDraggableCard' => ['CDDraggableCard/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'CDDraggableCard' => ['CDDraggableCard/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -1,0 +1,6 @@
+framework module CDDraggableCard {
+  umbrella header "CDDraggableCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

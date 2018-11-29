@@ -1,0 +1,16 @@
+PODS:
+  - CDDraggableCard (0.1.0)
+
+DEPENDENCIES:
+  - CDDraggableCard (from `../`)
+
+EXTERNAL SOURCES:
+  CDDraggableCard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CDDraggableCard: 9cdd44fd28c301c7f3d4789d19409579ad810efa
+
+PODFILE CHECKSUM: b4c8400154cba2fbf16e76e44f31cfe51a8c8a2a
+
+COCOAPODS: 1.5.3

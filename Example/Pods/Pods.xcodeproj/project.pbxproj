@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087270B2D677F71EB2AAB997A973004A /* CDDraggableCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F41717604C081C331515CA46078DB25 /* CDDraggableCardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1379B8470567B5B7304657332A7DE1FB /* CDDraggableContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3390DE889B138823863BEC2B5B0F3B /* CDDraggableContainer.m */; };
+		2CEFFC1CC86D4AD5DFD2B41E17653A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		30508C3FF9550A54A42C5CB96DA7104E /* Pods-CDDraggableCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EF403ABBE476328D6E7F4AB6664887 /* Pods-CDDraggableCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3540C61AB6A6CFF28A87E43573E6C02A /* CDDraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4ECE67EA4F9E3E893FD520B31B13C4 /* CDDraggableCardView.m */; };
+		3993A61207E9BB4A546292D6BF9B083B /* CDDraggableContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B288B026FBA86A77A2C2EAF22EA3657 /* CDDraggableContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6254A949A5B094586DE45B62AC5BA6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6F0136EFC02AEB738857AA5E36A20595 /* CDDraggableCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0979261E2C2F853F1B62E01865266BA /* CDDraggableCard.bundle */; };
+		7F583E65B39DF1D74D5F9722CE9BA52E /* Pods-CDDraggableCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 674794156F68C9EB93DAF471A51FBB97 /* Pods-CDDraggableCard_Example-dummy.m */; };
+		9EFD25AE913D296BCFE533F980DF69D2 /* Pods-CDDraggableCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A46FFD31FBFA314DFF101627FB2B2286 /* Pods-CDDraggableCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A30D598B6ABF0E6FA35C5E59AFBD2437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B8243F9F1BFEE18C542BF0AD352829D6 /* CDDraggableCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3CEC4E212D6F00441AADA0EC89A2CC /* CDDraggableCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D309B7E3848754731DF5A41F9C8D5388 /* CDDraggableCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7833240D79EB7A725EF6DC7E59FD4B2 /* CDDraggableCard-dummy.m */; };
+		D3B7D2226976ACA906A1B2DFD32E6AFA /* CDDraggableConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 31925B62E7FB854CA0C2F40E74BF721A /* CDDraggableConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D61E055C45946122EDD6586BF7A980E5 /* Pods-CDDraggableCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CC1EE0107948371E774E9A2FDF524F /* Pods-CDDraggableCard_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0646199644965BD5C99423170A35ACD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB60A908A89361915E34C553D0E7401F;
+			remoteInfo = "CDDraggableCard-CDDraggableCard";
+		};
+		0B0F962930A32970EEC832DA46845BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55814084A68DC5DED6A10F8CEA164FC4;
+			remoteInfo = "Pods-CDDraggableCard_Example";
+		};
+		E5F8DFB2F272ACE971D4D033BE423F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347A66FB8B49F9123E10A4FB8460ACAA;
+			remoteInfo = CDDraggableCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CA836E31DC05B46257A52228E5DD90 /* Pods-CDDraggableCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDDraggableCard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0A3CEC4E212D6F00441AADA0EC89A2CC /* CDDraggableCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDDraggableCard-umbrella.h"; sourceTree = "<group>"; };
+		0C13220D506DC632CA7D5507DC71512E /* Pods-CDDraggableCard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDDraggableCard_Tests-resources.sh"; sourceTree = "<group>"; };
+		1A3390DE889B138823863BEC2B5B0F3B /* CDDraggableContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDDraggableContainer.m; path = CDDraggableCard/Classes/CDDraggableContainer.m; sourceTree = "<group>"; };
+		1B419B901DCD53522E81CB06EF9E22ED /* Pods-CDDraggableCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDDraggableCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F6E8CE5ED2C35582A707BB87B22AE45 /* Pods-CDDraggableCard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDDraggableCard_Example-resources.sh"; sourceTree = "<group>"; };
+		20DB83483B1AFE48297721460CD25FCB /* CDDraggableCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDDraggableCard-prefix.pch"; sourceTree = "<group>"; };
+		27723C22FCD059DE58184E781AC2A7FE /* Pods-CDDraggableCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDDraggableCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F41717604C081C331515CA46078DB25 /* CDDraggableCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDDraggableCardView.h; path = CDDraggableCard/Classes/CDDraggableCardView.h; sourceTree = "<group>"; };
+		308A2D3A41FC8F1AB326CCED3E501021 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		31925B62E7FB854CA0C2F40E74BF721A /* CDDraggableConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDDraggableConfig.h; path = CDDraggableCard/Classes/CDDraggableConfig.h; sourceTree = "<group>"; };
+		36DB60F8A11A6C80E3E90CAF13BAB818 /* CDDraggableCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CDDraggableCard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36FF3DB2DE428F9ECDD648E9D1886CC5 /* Pods-CDDraggableCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDDraggableCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		54027E1E1793F5BA83D2149071E1444D /* Pods-CDDraggableCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDDraggableCard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		59E0C06ED2FC03B4875DAD0F4C5A59DD /* ResourceBundle-CDDraggableCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CDDraggableCard-Info.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FA67AB32B735232420E3E232876CAC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616B4C948D8EDF819D1576F5E5D1F246 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D254DFED1CB8E7333A7A67D09C37EF /* CDDraggableCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDDraggableCard.modulemap; sourceTree = "<group>"; };
+		64ECD594E027DBFD9043C66891421301 /* Pods-CDDraggableCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDDraggableCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		674794156F68C9EB93DAF471A51FBB97 /* Pods-CDDraggableCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDDraggableCard_Example-dummy.m"; sourceTree = "<group>"; };
+		6B288B026FBA86A77A2C2EAF22EA3657 /* CDDraggableContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDDraggableContainer.h; path = CDDraggableCard/Classes/CDDraggableContainer.h; sourceTree = "<group>"; };
+		6BB9088B961C5005169476048F7B79F8 /* Pods-CDDraggableCard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDDraggableCard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		71810FC1BDF0B6D76C414D5ED5E7928D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792E8266EB9B4FA06BDB64A8BD105E72 /* Pods-CDDraggableCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CDDraggableCard_Tests.modulemap"; sourceTree = "<group>"; };
+		7B666609E7405BA9A58C3295166C7184 /* Pods-CDDraggableCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDDraggableCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F4ECE67EA4F9E3E893FD520B31B13C4 /* CDDraggableCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDDraggableCardView.m; path = CDDraggableCard/Classes/CDDraggableCardView.m; sourceTree = "<group>"; };
+		87CC1EE0107948371E774E9A2FDF524F /* Pods-CDDraggableCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDDraggableCard_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1CA956ED714875BCB7E3249F4EE456E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A46FFD31FBFA314DFF101627FB2B2286 /* Pods-CDDraggableCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDDraggableCard_Example-umbrella.h"; sourceTree = "<group>"; };
+		AADD6E39BCD46B51092D7817BC16879B /* CDDraggableCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDDraggableCard.framework; path = CDDraggableCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9541F5CA4A5544519A3B223F37F450 /* Pods-CDDraggableCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDDraggableCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B7833240D79EB7A725EF6DC7E59FD4B2 /* CDDraggableCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDDraggableCard-dummy.m"; sourceTree = "<group>"; };
+		C8EF403ABBE476328D6E7F4AB6664887 /* Pods-CDDraggableCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDDraggableCard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB3570EB7AE70AD7287BB01252CE73C7 /* Pods-CDDraggableCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDDraggableCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFB86976209C01A619F567410E7EA66E /* Pods_CDDraggableCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDDraggableCard_Tests.framework; path = "Pods-CDDraggableCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08F155B78D86877B41F1935D899A1E1 /* Pods-CDDraggableCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CDDraggableCard_Example.modulemap"; sourceTree = "<group>"; };
+		D0979261E2C2F853F1B62E01865266BA /* CDDraggableCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CDDraggableCard.bundle; path = "CDDraggableCard-CDDraggableCard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A47DEF87C230E2EFE61B182E15C425 /* Pods_CDDraggableCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDDraggableCard_Example.framework; path = "Pods-CDDraggableCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75C52F0B18BF2BC355711DE961E6E8D /* CDDraggableCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDDraggableCard.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4EAB498EEB0042A4429B28F89FCF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEFFC1CC86D4AD5DFD2B41E17653A44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353A61E9EC92F4DD01C7FCE951322DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6254A949A5B094586DE45B62AC5BA6EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3FC86B55F43A53161AE63A75239D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE31E1ADA58E7DCC75BB69626AF8D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30D598B6ABF0E6FA35C5E59AFBD2437 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A023338379AC2740332892179B535D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0979261E2C2F853F1B62E01865266BA /* CDDraggableCard.bundle */,
+				AADD6E39BCD46B51092D7817BC16879B /* CDDraggableCard.framework */,
+				E4A47DEF87C230E2EFE61B182E15C425 /* Pods_CDDraggableCard_Example.framework */,
+				CFB86976209C01A619F567410E7EA66E /* Pods_CDDraggableCard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1079CB42A49E370F98F1CF8C88782EE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60A9957272A266F124CB563E476D42FC /* Pods-CDDraggableCard_Example */,
+				7BAA45F8CD8314330A9E99A1FA9599A3 /* Pods-CDDraggableCard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60A9957272A266F124CB563E476D42FC /* Pods-CDDraggableCard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5FA67AB32B735232420E3E232876CAC0 /* Info.plist */,
+				D08F155B78D86877B41F1935D899A1E1 /* Pods-CDDraggableCard_Example.modulemap */,
+				1B419B901DCD53522E81CB06EF9E22ED /* Pods-CDDraggableCard_Example-acknowledgements.markdown */,
+				7B666609E7405BA9A58C3295166C7184 /* Pods-CDDraggableCard_Example-acknowledgements.plist */,
+				674794156F68C9EB93DAF471A51FBB97 /* Pods-CDDraggableCard_Example-dummy.m */,
+				04CA836E31DC05B46257A52228E5DD90 /* Pods-CDDraggableCard_Example-frameworks.sh */,
+				1F6E8CE5ED2C35582A707BB87B22AE45 /* Pods-CDDraggableCard_Example-resources.sh */,
+				A46FFD31FBFA314DFF101627FB2B2286 /* Pods-CDDraggableCard_Example-umbrella.h */,
+				AF9541F5CA4A5544519A3B223F37F450 /* Pods-CDDraggableCard_Example.debug.xcconfig */,
+				54027E1E1793F5BA83D2149071E1444D /* Pods-CDDraggableCard_Example.release.xcconfig */,
+			);
+			name = "Pods-CDDraggableCard_Example";
+			path = "Target Support Files/Pods-CDDraggableCard_Example";
+			sourceTree = "<group>";
+		};
+		7BAA45F8CD8314330A9E99A1FA9599A3 /* Pods-CDDraggableCard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				616B4C948D8EDF819D1576F5E5D1F246 /* Info.plist */,
+				792E8266EB9B4FA06BDB64A8BD105E72 /* Pods-CDDraggableCard_Tests.modulemap */,
+				27723C22FCD059DE58184E781AC2A7FE /* Pods-CDDraggableCard_Tests-acknowledgements.markdown */,
+				CB3570EB7AE70AD7287BB01252CE73C7 /* Pods-CDDraggableCard_Tests-acknowledgements.plist */,
+				87CC1EE0107948371E774E9A2FDF524F /* Pods-CDDraggableCard_Tests-dummy.m */,
+				6BB9088B961C5005169476048F7B79F8 /* Pods-CDDraggableCard_Tests-frameworks.sh */,
+				0C13220D506DC632CA7D5507DC71512E /* Pods-CDDraggableCard_Tests-resources.sh */,
+				C8EF403ABBE476328D6E7F4AB6664887 /* Pods-CDDraggableCard_Tests-umbrella.h */,
+				36FF3DB2DE428F9ECDD648E9D1886CC5 /* Pods-CDDraggableCard_Tests.debug.xcconfig */,
+				64ECD594E027DBFD9043C66891421301 /* Pods-CDDraggableCard_Tests.release.xcconfig */,
+			);
+			name = "Pods-CDDraggableCard_Tests";
+			path = "Target Support Files/Pods-CDDraggableCard_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9F3B2DCEE5AFF54CD9887EDCD12D134B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				00A023338379AC2740332892179B535D /* Products */,
+				1079CB42A49E370F98F1CF8C88782EE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90ADEA8B73AF2179EF2B3AEC3420905E /* CDDraggableCard */ = {
+			isa = PBXGroup;
+			children = (
+				2F41717604C081C331515CA46078DB25 /* CDDraggableCardView.h */,
+				7F4ECE67EA4F9E3E893FD520B31B13C4 /* CDDraggableCardView.m */,
+				31925B62E7FB854CA0C2F40E74BF721A /* CDDraggableConfig.h */,
+				6B288B026FBA86A77A2C2EAF22EA3657 /* CDDraggableContainer.h */,
+				1A3390DE889B138823863BEC2B5B0F3B /* CDDraggableContainer.m */,
+				C1662D28BB352E16643F060C2C858AAC /* Pod */,
+				CDB3DCB4A608A0674FC71D477CEE222A /* Support Files */,
+			);
+			name = CDDraggableCard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9F3B2DCEE5AFF54CD9887EDCD12D134B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90ADEA8B73AF2179EF2B3AEC3420905E /* CDDraggableCard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1662D28BB352E16643F060C2C858AAC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36DB60F8A11A6C80E3E90CAF13BAB818 /* CDDraggableCard.podspec */,
+				308A2D3A41FC8F1AB326CCED3E501021 /* LICENSE */,
+				A1CA956ED714875BCB7E3249F4EE456E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CDB3DCB4A608A0674FC71D477CEE222A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61D254DFED1CB8E7333A7A67D09C37EF /* CDDraggableCard.modulemap */,
+				E75C52F0B18BF2BC355711DE961E6E8D /* CDDraggableCard.xcconfig */,
+				B7833240D79EB7A725EF6DC7E59FD4B2 /* CDDraggableCard-dummy.m */,
+				20DB83483B1AFE48297721460CD25FCB /* CDDraggableCard-prefix.pch */,
+				0A3CEC4E212D6F00441AADA0EC89A2CC /* CDDraggableCard-umbrella.h */,
+				71810FC1BDF0B6D76C414D5ED5E7928D /* Info.plist */,
+				59E0C06ED2FC03B4875DAD0F4C5A59DD /* ResourceBundle-CDDraggableCard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CDDraggableCard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		783262EA47ACF548813E9459AFAD6F62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFD25AE913D296BCFE533F980DF69D2 /* Pods-CDDraggableCard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A10D17BFD6CCA8257F67A254BF509 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30508C3FF9550A54A42C5CB96DA7104E /* Pods-CDDraggableCard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AC2B2965786CA9B19668BE2DD04902 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8243F9F1BFEE18C542BF0AD352829D6 /* CDDraggableCard-umbrella.h in Headers */,
+				087270B2D677F71EB2AAB997A973004A /* CDDraggableCardView.h in Headers */,
+				D3B7D2226976ACA906A1B2DFD32E6AFA /* CDDraggableConfig.h in Headers */,
+				3993A61207E9BB4A546292D6BF9B083B /* CDDraggableContainer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		101FD86AEEE9A94B74D650D614D9FF61 /* Pods-CDDraggableCard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE98DE728DF6D86B5C7811CEE413643 /* Build configuration list for PBXNativeTarget "Pods-CDDraggableCard_Tests" */;
+			buildPhases = (
+				C78A10D17BFD6CCA8257F67A254BF509 /* Headers */,
+				03ACD45A622EE7615A913012DC5A7256 /* Sources */,
+				7BE31E1ADA58E7DCC75BB69626AF8D9D /* Frameworks */,
+				93DE7E9FEBC8D36C3B8C6F41282AB1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DD0A6ED5D0D8818B5D7B9F86AACD2F /* PBXTargetDependency */,
+			);
+			name = "Pods-CDDraggableCard_Tests";
+			productName = "Pods-CDDraggableCard_Tests";
+			productReference = CFB86976209C01A619F567410E7EA66E /* Pods_CDDraggableCard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		347A66FB8B49F9123E10A4FB8460ACAA /* CDDraggableCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1EAF2E62215F082A39400073536F28 /* Build configuration list for PBXNativeTarget "CDDraggableCard" */;
+			buildPhases = (
+				E3AC2B2965786CA9B19668BE2DD04902 /* Headers */,
+				2CD10F5A0DB60A0E86FFF8F058B7B706 /* Sources */,
+				2D4EAB498EEB0042A4429B28F89FCF53 /* Frameworks */,
+				9EA721C7F67162266D58F9D847E0AAB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8634221171847210F71F79E330BF5C42 /* PBXTargetDependency */,
+			);
+			name = CDDraggableCard;
+			productName = CDDraggableCard;
+			productReference = AADD6E39BCD46B51092D7817BC16879B /* CDDraggableCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55814084A68DC5DED6A10F8CEA164FC4 /* Pods-CDDraggableCard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA1B5943741CE203367A662D85CCB93 /* Build configuration list for PBXNativeTarget "Pods-CDDraggableCard_Example" */;
+			buildPhases = (
+				783262EA47ACF548813E9459AFAD6F62 /* Headers */,
+				54CCC6248ADC867098A0D85D541B217D /* Sources */,
+				353A61E9EC92F4DD01C7FCE951322DAA /* Frameworks */,
+				F1F51DFC0E46342682C12402F2E162CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5396C6773580CF7B9A61459C58FBC0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CDDraggableCard_Example";
+			productName = "Pods-CDDraggableCard_Example";
+			productReference = E4A47DEF87C230E2EFE61B182E15C425 /* Pods_CDDraggableCard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB60A908A89361915E34C553D0E7401F /* CDDraggableCard-CDDraggableCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA69924FF1F1E00C490D4220E66A2DF /* Build configuration list for PBXNativeTarget "CDDraggableCard-CDDraggableCard" */;
+			buildPhases = (
+				AE838ADF003F254406DB7E7C0AE9FD9F /* Sources */,
+				4B3FC86B55F43A53161AE63A75239D0C /* Frameworks */,
+				5161B093EC95E3F0D8DD99CFC73A77D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CDDraggableCard-CDDraggableCard";
+			productName = "CDDraggableCard-CDDraggableCard";
+			productReference = D0979261E2C2F853F1B62E01865266BA /* CDDraggableCard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00A023338379AC2740332892179B535D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				347A66FB8B49F9123E10A4FB8460ACAA /* CDDraggableCard */,
+				CB60A908A89361915E34C553D0E7401F /* CDDraggableCard-CDDraggableCard */,
+				55814084A68DC5DED6A10F8CEA164FC4 /* Pods-CDDraggableCard_Example */,
+				101FD86AEEE9A94B74D650D614D9FF61 /* Pods-CDDraggableCard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5161B093EC95E3F0D8DD99CFC73A77D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE7E9FEBC8D36C3B8C6F41282AB1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA721C7F67162266D58F9D847E0AAB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0136EFC02AEB738857AA5E36A20595 /* CDDraggableCard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F51DFC0E46342682C12402F2E162CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03ACD45A622EE7615A913012DC5A7256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61E055C45946122EDD6586BF7A980E5 /* Pods-CDDraggableCard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD10F5A0DB60A0E86FFF8F058B7B706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D309B7E3848754731DF5A41F9C8D5388 /* CDDraggableCard-dummy.m in Sources */,
+				3540C61AB6A6CFF28A87E43573E6C02A /* CDDraggableCardView.m in Sources */,
+				1379B8470567B5B7304657332A7DE1FB /* CDDraggableContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CCC6248ADC867098A0D85D541B217D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F583E65B39DF1D74D5F9722CE9BA52E /* Pods-CDDraggableCard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE838ADF003F254406DB7E7C0AE9FD9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DD0A6ED5D0D8818B5D7B9F86AACD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CDDraggableCard_Example";
+			target = 55814084A68DC5DED6A10F8CEA164FC4 /* Pods-CDDraggableCard_Example */;
+			targetProxy = 0B0F962930A32970EEC832DA46845BB5 /* PBXContainerItemProxy */;
+		};
+		8634221171847210F71F79E330BF5C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CDDraggableCard-CDDraggableCard";
+			target = CB60A908A89361915E34C553D0E7401F /* CDDraggableCard-CDDraggableCard */;
+			targetProxy = 0646199644965BD5C99423170A35ACD2 /* PBXContainerItemProxy */;
+		};
+		BE5396C6773580CF7B9A61459C58FBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDDraggableCard;
+			target = 347A66FB8B49F9123E10A4FB8460ACAA /* CDDraggableCard */;
+			targetProxy = E5F8DFB2F272ACE971D4D033BE423F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1711BCC3B05669B214D91F752E3A49DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75C52F0B18BF2BC355711DE961E6E8D /* CDDraggableCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDDraggableCard";
+				INFOPLIST_FILE = "Target Support Files/CDDraggableCard/ResourceBundle-CDDraggableCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CDDraggableCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3CA92A7FC51D2D364E925280A98679C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FF3DB2DE428F9ECDD648E9D1886CC5 /* Pods-CDDraggableCard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDDraggableCard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDDraggableCard_Tests/Pods-CDDraggableCard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69A1D0599054B142C639ABAD44214958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75C52F0B18BF2BC355711DE961E6E8D /* CDDraggableCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDDraggableCard/CDDraggableCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDDraggableCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDDraggableCard/CDDraggableCard.modulemap";
+				PRODUCT_MODULE_NAME = CDDraggableCard;
+				PRODUCT_NAME = CDDraggableCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D9DDA6CDB8E1B22DA421DF18B410474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54027E1E1793F5BA83D2149071E1444D /* Pods-CDDraggableCard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDDraggableCard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDDraggableCard_Example/Pods-CDDraggableCard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		935D5E82A24AC071507E2B842568167B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64ECD594E027DBFD9043C66891421301 /* Pods-CDDraggableCard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDDraggableCard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDDraggableCard_Tests/Pods-CDDraggableCard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95AA7411ADC142261895ADF56620DD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75C52F0B18BF2BC355711DE961E6E8D /* CDDraggableCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDDraggableCard";
+				INFOPLIST_FILE = "Target Support Files/CDDraggableCard/ResourceBundle-CDDraggableCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CDDraggableCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF752F5463D5F5A6995C539894A9F920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9541F5CA4A5544519A3B223F37F450 /* Pods-CDDraggableCard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDDraggableCard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDDraggableCard_Example/Pods-CDDraggableCard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5F5B4E884F4D1B0E737AA1EC77B5C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75C52F0B18BF2BC355711DE961E6E8D /* CDDraggableCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDDraggableCard/CDDraggableCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDDraggableCard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDDraggableCard/CDDraggableCard.modulemap";
+				PRODUCT_MODULE_NAME = CDDraggableCard;
+				PRODUCT_NAME = CDDraggableCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE98DE728DF6D86B5C7811CEE413643 /* Build configuration list for PBXNativeTarget "Pods-CDDraggableCard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA92A7FC51D2D364E925280A98679C2 /* Debug */,
+				935D5E82A24AC071507E2B842568167B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1EAF2E62215F082A39400073536F28 /* Build configuration list for PBXNativeTarget "CDDraggableCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F5B4E884F4D1B0E737AA1EC77B5C22 /* Debug */,
+				69A1D0599054B142C639ABAD44214958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA1B5943741CE203367A662D85CCB93 /* Build configuration list for PBXNativeTarget "Pods-CDDraggableCard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF752F5463D5F5A6995C539894A9F920 /* Debug */,
+				7D9DDA6CDB8E1B22DA421DF18B410474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA69924FF1F1E00C490D4220E66A2DF /* Build configuration list for PBXNativeTarget "CDDraggableCard-CDDraggableCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1711BCC3B05669B214D91F752E3A49DD /* Debug */,
+				95AA7411ADC142261895ADF56620DD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

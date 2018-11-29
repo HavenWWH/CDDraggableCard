@@ -17,10 +17,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CDDraggableCard/Classes/**/*",
-  "resource_bundles": {
-    "CDDraggableCard": [
-      "CDDraggableCard/Assets/*"
-    ]
-  }
+  "source_files": "CDDraggableCard/Classes/**/*"
 }

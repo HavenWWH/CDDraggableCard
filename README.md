@@ -7,7 +7,33 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+[self.view addSubview: self.draggableContainer];
+
+[self.draggableContainer reloadData];
+
+// 选中item方法
+
+
+(void)draggableContainer:(CDDraggableContainer *)draggableContainer cardView:(CDDraggableCardView *)cardView didSelectIndex:(NSInteger)didSelectIndex {
+
+
+}
+
+// 每次切换都会执行此方法
+
+
+(void)draggableContainer:(CDDraggableContainer *)draggableContainer draggableDirection:(CDDraggableDirection)draggableDirection widthRatio:(CGFloat)widthRatio heightRatio:(CGFloat)heightRatio {
+
+
+}
+
+// 卡片画完后加载, 一般用于加载分页
+
+
+(void)draggableContainer:(CDDraggableContainer *)draggableContainer finishedDraggableLastCard:(BOOL)finishedDraggableLastCard {
+
+
+}
 
 ## Requirements
 
@@ -19,10 +45,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CDDraggableCard'
 ```
-
-## Author
-
-Haven, 513433750@qq.com
 
 ## License
 
